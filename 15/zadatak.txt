@@ -1,0 +1,6 @@
+Napisati M-fajl legendre.m sa funkcijom L = legendre(n) koja kao rezultat vraca Lezandrov polinom L stepena n na intervalu [−1,1] .
+
+Napisati M-fajl polinom.m sa funkcijom P = polinom(n, m) koja kao rezultat vraca polinom P dobijen preko iterativne formule
+
+Napisati M-fajl integral.m sa funkcijom I = integral(n, m, tol) koja sa tacnoscu tol priblizno odredjuje Z i kao rezultat vraca vrednost integrala [-1,1] P(x)e^x dx.
+Integral raqunati koriscenjem uopstene Simpsonove formule. Polinom P (x) je polinom dobijen resenjem prethodne tacke.

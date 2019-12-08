@@ -1,0 +1,7 @@
+Neka je funkcija f zadata tablicno M-fajlom tablica.m koji generise dva niza X = [x1 , x2 , ..., xn ] i Y = [y1 , y2 , ..., yn] (od kojih je prvi strogo rastuci) za tu tablicno zadatu funkciju. Tablica ne mora biti ekvidistantna.
+
+Napisati M-fajl izvod.m sa funkcijom [X, Y, Yi] = izvod() u kom se na osnovu prethodne tablice formira tablica prvog izvoda funkcije f u tackama x2 , x3 , ..., xn-1 koriscenjem sledece formule:
+
+Napisati M-fajl vredizvod.m sa funkcijom vredizvod(x) koja za uneti argument x vraca pribliznu vrednost prvog izvoda funkcije f izraqunatu koriscenjem Njutnovog interpolacionog polinoma sa podeljenim razlikama konstruisanog na osnovu svih vrednosti iz tablice iz fajla izvod.m .
+
+Napisati M-fajl nula.m sa funkcijom nula() koja metodom inverzne interpolacije priblizno odredjuje i vraca jednu nulu prvog izvoda funkcije f koriscenjem Njutnovog interpolacionog polinoma sa podeljenim razlikama (pretpostavka je da je prvi izvod monotona funkcija).

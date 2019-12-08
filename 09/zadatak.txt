@@ -1,0 +1,5 @@
+Neka je funkcija f zadata tabliqno M-fajlom tablica.m koji generixe dva niza X = [x1 ,  x2 , ..., xn ] i Y = [y1 , y2 ,..., yn] (od kojih je prvi strogo rastuci) za tu tablicno zadatu funkciju. Tablica mora biti ekvidistantna (sa korakom h ).
+
+Napisati M-fajl izvod1.m sa funkcijom izvod1(x) koja raquna vrednost prvog izvoda tabelirane funkcije u tacki x koristeci diferenciranje I Njutnovog interpolacionog polinoma zakljucno sa konacnim razlikama reda 4.
+
+Napisati M-fajl izvod2.m sa funkcijom izvod2(x) koja raquna vrednost drugog izvoda tabelirane funkcije u tacki x koristeci diferenciranje I Njutnovog interpolacionog polinoma zakljucno sa konacnim razlikama reda 4.

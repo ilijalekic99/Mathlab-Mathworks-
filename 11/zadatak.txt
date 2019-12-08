@@ -1,0 +1,7 @@
+Neka je funkcija f zadata eksplicitno komandnim M-fajlom funkcija.m .
+
+Napisati M-fajl integralt.m sa funkcijom [I, briter] = integralt(a, b, tol) koja sa tacnoscu tol raquna i vraca vrednost odredjenog integrala funkcije f (granice integracije su a i b ) koriscenjem uopstene Trapezne kvadraturne formule. Funkcija vraca vrednost integrala i broj iteracija.
+
+Napisati M-fajl integrals.m sa funkcijom [I, briter] = integrals(a, b, tol) koja sa tacnoscu tol raquna i vraca vrednost odredjenog integrala funkcije f (granice integracije su a i b ) koriscenjem uopstene Simpsonove kvadraturne formule. Funkcija vraca vrednost integrala i broj iteracija.
+
+Napisati M-fajl graf ik.m sa funkcijom grafik(a, b) koja prikazuje grafik zavisnosti brzine konvergencije Simpsonove kvadraturne formule (plavo) i Trapezne kvadraturne formule (crveno), za razlicite tolerancije

@@ -1,0 +1,7 @@
+Neka je funkcija f zadata eksplicitno komandnim M-fajlom f unkcija.m .
+
+Napisati M-fajl tablica.m sa funkcijom [X, Y] = tablica(a, b, n) koja formira ekvidistantnu tabelu funkcije f na segmentu [a,b] sa n qvorova.
+
+Napisati M-fajl promenaZnaka.m sa funkcijom [c, d] = promenaZnaka(a, b, n) koja na osnovu nizova X i Y dobijenih pozivanjem funkcije tablica(a, b, n) pronalazi i kao rezultat vraca prvi interval [x[i] , x[i+1]] u kome funkcija menja znak (c = x[i] , d = x[i+1] ) . Pretpostavlja se da takav interval postoji.
+
+Napisati M-fajl nula.m sa funkcijom nula(a, b, n) koja metodom inverzne interpolacije priblizno odredjuje nulu funkcije f na intervalu [c, d] , koristeci II Njutnov interpolacioni polinom zakljucno sa konacnim razlikama reda 3. Kriterijum zaustavljanja iterativnog niza: |q[i] − q[i+1] | ≤ 10

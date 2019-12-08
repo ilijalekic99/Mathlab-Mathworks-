@@ -1,0 +1,7 @@
+Neka je funkcija f zadata tablicno M-fajlom tablica.m koji generixe dva niza X = [x1, x2, ..., xn] i F = [f1, f2, ..., fn] za tu tablicno zadatu funkciju.
+
+Napisati M-fajl tablicaCheck.m sa funkcijom t = tablicaCheck() koja vrsi proveru da li je tablica u komandnom fajlu tablica.m ekvidistantna i da li je niz X zadat u strogo rastucem poretku. Ukoliko su oba uslova ispunjena, funkcija vraca vrednost 1, a u suprotnom vraca vrednost 0 i u oba sluqaja ispisuje odgovarajucu poruku.
+
+Napisati M-fajl polozaj.m sa funkcijom polozaj(x) koja za uneti argument x vraca vrednost 1 ukoliko je x < x[2] , 2 ukoliko je x > x[n-1] i 0 inace.
+
+Napisati M-fajl N jutn.m sa funkcijom N jutn(x) koja ukoliko su svi uslovi ispunjeni, vraca pribliznu vrednost funkcije f u tacki x izraqunatu koriscenjem I ( II ) Njutnovog interpolacionog polinoma, ako je vrednost funkcije polozaj u tacki x jednaka 1 (2), odnosno izdaje odgovarajucu poruku ukoliko je polozaj(x) = 0 .

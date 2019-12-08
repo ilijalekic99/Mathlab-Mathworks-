@@ -1,0 +1,5 @@
+Neka je funkcija f (koja ne mora biti (samo) pozitivna) zadata eksplicitno funkcijskim M-fajlom f unkcija.m .
+
+Napisati M-fajl Runge.m sa funkcijom Runge(S1, S2) koja vraca vrednost Rungeove ocene greske uopstene Simpsonove kvadraturne formule, ako su S1 i S2 trazene vrednosti od kojih je jedna izracunata sa dvostruko manjim korakom u odnosu na drugu.
+
+Napisati M-fajl zapremina.m sa funkcijom zapremina(a, b, tol) koja koristeci uopstenu Simpsonovu kvadraturnu formulu vraca zapreminu tela nastalog obrtanjem figure ogranicene pravama y = 0, x = a, x = b i funkcijom f oko ose Ox izraqunatu sa tac noscu tol . (Za ocenu tacnosti koristiti funkcijuRunge)

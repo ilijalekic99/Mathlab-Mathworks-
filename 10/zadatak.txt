@@ -1,0 +1,7 @@
+Neka je funkcija f zadata eksplicitno komandnim M-fajlom f unkcija.m
+
+Napisati M-fajl trapez.m sa funkcijom I = trapez(a, b) koja priblizno racuna i vraca vrednost odredjenog integrala funkcije f (granice integracije su a i b ) koriscenjem uopstene Trapezne kvadraturne formule sa n = 9 cvorova.
+
+Napisati M-fajl simps.m sa funkcijom I = simps(a, b) koja priblizno racuna i vraca vrednost odredjenog integrala funkcije f (granice integracije su a i b ) koriscenjem uopstene Simpsonove kvadraturne formule sa n = 9 cvorova.
+
+Napisati M-fajl vredf unk.m sa funkcijom [X, R Y] = vredfunk(k, p) koja priblizno izracunava vrednost funkcije I(x) = f(t)dt, kada se x krece od 2 do k ∈ N, k ≥ 2 , sa korakom 1. Ukoliko je p = 1 integrale raqunati koristeci uopstenu Simpsonovu kvadraturnu formulu (sa n = 9 qvorova), a u sluqaju kada je p = 2 uopxtenu Trapeznu kvadraturnu formulu (sa n = 9 qvorova). Funkcija vraca dva niza: X sa vrednostima x i Y sa izraqunatim vrednostima funkcije I(x) u tackama x .

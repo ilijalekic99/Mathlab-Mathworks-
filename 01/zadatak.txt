@@ -1,0 +1,5 @@
+Neka je funkcija f zadata tablicno M-fajlom tablica.m koji generixe dva niza X = [x , ..., x ] i F = [f , ..., f ] (od kojih je prvi strogo rastuci) za tu tablicno zadatu funkciju. Tablica ne mora biti ekvidistantna.
+
+Napisati M-fajl novatablica.m u kom se prethodna tablica prosiruje do nove dodavanjem cvorova na sredini izmedju usvaka 2 i racunanjem vrednosti funkcije u njima kao aritmeticku sredinu vrednosti u susednim cvorovima.
+
+Napisati M-fajl Lagr1.m sa funkcijom L = Lagr1(x) koja za uneti argument x vraca pribliznu vrednost funkcije f u toj tacki izracunatu pomocu Lagranzovog interpolacionog polinoma L , koriscenjem svih vrednosti iz nove tablice.

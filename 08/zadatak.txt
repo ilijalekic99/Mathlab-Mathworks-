@@ -1,0 +1,7 @@
+Neka je funkcija f zadata tablicno M-fajlom tablica.m koji generise dva niza X = [x1 , x2 , ..., xn ] i Y = [y1 , y2 , ..., yn] (od kojih je prvi strogo rastuci) za tu tablicno zadatu funkciju. Tablica mora biti ekvidistantna (sa korakom h ).
+
+Napisati M-fajl drugiizvod.m sa funkcijom [X, Y, Y2] = drugiizvod() u kom se na osnovu prethodne tablice formira tablica drugog izvoda funkcije f u tackama x2 , x3 , ..., xn-1 koriscenjem  formule
+
+Napisati M-fajl vred2izvod.m sa funkcijom vred2izvod(x) koja za uneti argument x vraca pribliznu vrednost drugog izvoda funkcije f izracunatu koriscenjem I Njutnovog interpolacionog polinoma konstruisanog na osnovu svih vrednosti iz tablice iz fajla drugiizvod.m .
+
+Napisati M-fajl nula.m sa funkcijom nula() koja metodom inverzne interpolacije priblizno odredjuje nulu drugog izvoda funkcije f (pretpostavka je da je drugi izvod monotona funkcija) koristeci I Njutnov interpolacioni polinom zakljucno sa konacnim razlikama reda 3. Kriterijum zaustavljanja iterativnog niza: |q[i] − q[i+1] | ≤ 10^-4 , i = 2, ... .

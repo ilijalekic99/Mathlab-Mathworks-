@@ -1,0 +1,5 @@
+Formirati M-fajl integral.m sa funkcijom integral(f, a, b) koja raquna i vraca vrednost f (x)dx . Dozvoljeno je koriscenje ugradjene MATLAB funkcije za izracunavanje integrala.
+
+Formirati M-fajl sistem.m sa funkcijom sistem(d, t, n) koja formira sistem linearnih jednacina koji se dobija prilikom nalazenja koeficijenata kvadraturne formule
+ 
+Formirati M-fajl koef icijenti.m sa funkcijom koeficijenti(d, t, n) koj odredjuje koeficijente A prethodne kvadraturne formule. Dozvoljeno je koriscenjee operatora \ za resavanje sistema.

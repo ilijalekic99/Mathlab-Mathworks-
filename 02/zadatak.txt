@@ -1,0 +1,7 @@
+Neka je funkcija f zadata eksplicitno komandnim M-fajlom f unkcija.m .
+
+Napisati M-fajl tablica.m sa funkcijom [X, Y ] = tablica(a, b, n) koja tabelira zadatu funkciju f na intervalu [a, b] sa n cvorova.
+
+Napisati M-fajl Lagr1b.m sa funkcijom [L, y] = Lagr1b(x, a, b, n) koji formira i vraca koeficijente Lagranzovog interpolacionog polinoma L formiranog koristeci sve vrednosti iz tablice, kao i vrednost formiranog polinoma u tacki x .
+
+Uporediti grafike funkcije f i formiranog interpolacionog polinoma.

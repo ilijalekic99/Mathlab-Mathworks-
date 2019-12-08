@@ -1,0 +1,5 @@
+Napisati M-fajl legendre poly.m sa funkcijom L = legendre poly(n, a, b) koja formira i vraca niz svih Lezandrovih polinoma do stepena n na intervalu [a, b] . Nacrtati grafik svih formiranih Lezandrovih polinoma.
+
+Napisati M-fajl Cebisev poly.m sa funkcijom C = Cebisev poly(n, a, b) koja formira i vraca niz svih Cebisevljevih polinoma do stepena n na intervalu [a, b] . Nacrtati grafik svih formiranih Cebisevljevih polinoma.
+
+
